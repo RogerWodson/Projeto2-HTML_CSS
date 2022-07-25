@@ -1,0 +1,142 @@
+/* Estilos Globais*/
+.principal{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 10px;
+    padding: auto;
+    border: 2px solid black;
+    background-color: rgb(158, 158, 173);
+}
+
+.secao-preta{
+    margin: auto;
+    background-color: rgb(9, 10, 10);
+    height: 500px;
+    justify-content: center;
+    display: flex;
+}
+.secao-amarela{
+    margin: auto;
+    height: 500px;
+    background-color: rgb(238, 114, 13);
+    justify-content: center;
+    display: flex;
+       }
+
+       .rodape{
+        margin: auto;
+        background-color: rgb(7, 131, 131);
+        justify-content: center;
+        display: flex;
+       }
+
+
+/* Estilos Cabeçalho*/
+
+.secao-amarela-topo{
+    margin: auto;
+    height: 500px;
+    background-color: rgb(238, 114, 13);
+    justify-content: center;
+           }
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    color: blue;
+    font-size: 100%;
+}
+
+.cabecalho img{
+    width: 5%;
+    height: 5%;
+    padding: 10px;
+ }
+
+
+ /* Estilos secao1*/
+
+ .secao-amarela .texto, .secao-preta .texto, .secao-amarela-topo .texto{
+    width: 700px;
+    display: flex;
+    margin: auto;
+    color: rgb(248, 237, 237);
+    padding: 30px;
+    }
+
+    .secao-amarela .texto h2, .secao-preta .texto h2{
+        font-size:xx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-right: 15%;
+    }
+
+    .secao-preta .s2img1{
+        width: 25%;
+        position:relative;
+        margin-top: 17%;
+    }
+
+    .secao-preta .s2img2{
+        width: 25%;
+        margin-top: -8%;
+        margin-left: 37%;
+        position:absolute;
+    }
+
+    .secao-preta .s3img1{
+        margin-bottom: -2.5%;
+        position:relative;
+    }
+
+    .secao-amarela .s4img1{
+        position: relative;
+        width: 35%;
+        height: 60%;
+        margin-top: 15%;
+    }
+
+    .secao-amarela .s4img2{
+        position: absolute;
+        width: 20%;
+        margin-top: -7%;
+        margin-left: -31%;
+    }
+
+    .secao-preta .texto .s5img{
+       height: 350px;
+    }
+
+
+  .rodape{
+    margin: auto;
+    justify-content: left;
+    background-color: rgb(8, 136, 136);
+    
+     }
+  
+.rodape .redes{
+    margin-right: 400px;
+  }
+
+
+  .rodape .redes .img-rodape{
+    width: 50px;
+    text-align: left;
+  }
+
+  .principal img{
+    position: relative;
+     }
+
+     .fixa {
+        background-position: top;
+        background-repeat: no-repeat;  
+        position: fixed;
+        right:-1vw;
+        bottom: 5vh;
+      }
+
+      .fixa img{
+        width: 15vw;
+      }
